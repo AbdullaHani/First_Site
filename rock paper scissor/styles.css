@@ -1,0 +1,21 @@
+html{
+    background-image: url('x.jpg');
+    background-size:100%;
+    color:white;
+}
+*{
+    font-size: 40px;
+}
+body { 
+    min-height: 90vh;     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
